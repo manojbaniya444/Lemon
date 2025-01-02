@@ -1,5 +1,7 @@
 ## Lemon
-Lemon is a backend web framework to create http backend server.
+Lemon is a backend web framework to create http backend server like **Express JS** framework.
+
+##  Creating a server
 
 ```javascript
 const lemon = require("lemon")
