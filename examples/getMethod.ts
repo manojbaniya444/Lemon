@@ -1,8 +1,8 @@
-import Server from "../server";
+import lemon from "@src/lemon"
 
-const app = new Server();
+const app = lemon()
 
-const PORT = 5000;
+const PORT = 9000;
 const hostname = "localhost";
 
 app.get("/", (req, res) => {
